@@ -4,7 +4,7 @@ import "./App.css";
 import SearchIcon from "./search.png";
 import MovieCard from "./MovieCard";
 
-const API_URL = "http://www.omdbapi.com?apikey=1d0fa2bd";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=1d0fa2bd";
 
 // const movie1 = {
 //   Title: "Alice in the Wonderland",
@@ -43,7 +43,6 @@ const App = () => {
           scr={SearchIcon}
           alt="search"
           onClick={() => searchMovies(searchTerm)}
-          
         />
       </div>
 
