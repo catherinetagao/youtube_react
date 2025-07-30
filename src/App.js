@@ -6,14 +6,7 @@ import MovieCard from "./MovieCard";
 
 const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=1d0fa2bd";
 
-// const movie1 = {
-//   Title: "Alice in the Wonderland",
-//   Year: "2016",
-//   imdbID: "tt10096136",
-//   Type: "series",
-//   Poster:
-//     "https://m.media-amazon.com/images/M/MV5BY2MyM2VkYTUtNzBiYi00ZmE2LWIwOTctMmUyNTVmZDU0MWMyXkEyXkFqcGdeQXVyMjg0MTI5NzQ@._V1_SX300.jpg",
-// };
+
 
 const App = () => {
   const [movies, setMovies] = useState([]);
@@ -40,7 +33,7 @@ const App = () => {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <img
-          scr={SearchIcon}
+          src={SearchIcon}
           alt="search"
           onClick={() => searchMovies(searchTerm)}
         />
