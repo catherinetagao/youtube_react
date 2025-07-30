@@ -4,5 +4,6 @@
     "api/movies.js": {
       "maxDuration": 30
     }
-  }
+  },
+  "outputDirectory": "build"
 }
